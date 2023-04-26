@@ -1,0 +1,55 @@
+site_name: Digital Era wiki
+site_description: 纪元数位公司wiki
+site_author: Digital Era 
+
+nav:
+  - Home: index.md
+  - 元宇宙:
+    - Stable-diffusion_lora: Stable-diffusion_lora/README.md
+    - Wav2lip+GFPGAN: Wav2lip+GFPGAN/README.md
+    - Sovits+vits: Sovits+vits/README.md
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'deep purple'
+    accent: 'amber'
+  font:
+    text:
+      - 'Noto Sans SC'
+      - 'Noto Sans'
+      - 'Helvetica Neue'
+      - 'Arial'
+      - 'sans-serif'
+    code:
+      - 'Roboto Mono'
+      - 'Courier New'
+      - 'monospace'
+  language: 'zh'
+
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
