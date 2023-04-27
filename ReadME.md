@@ -46,7 +46,10 @@ plugins:
 
 当需要补充wiki网站内容时，
 
-1. 克隆master；
+1. 克隆master分支；
 2. 在 `docs`路径下新建子文件夹，添加了说明文档；
-3. 在 `mkdocs.yml`中的 `nav`添加相应名称与路径；
-4. 使用gh-deploy。
+3. 在 `mkdocs.yml`中的 `nav`添加相应名称与路径
+4. ```
+   mkdocs build
+   mkdocs gh-deploy
+   ```
