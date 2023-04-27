@@ -8,7 +8,8 @@ nav:
     - Stable-diffusion_lora: Stable-diffusion_lora/README.md
     - Wav2lip+GFPGAN: Wav2lip+GFPGAN/README.md
     - Sovits+vits: Sovits+vits/README.md
-
+  - GPT-AI:
+    - GPTAI: GPT-AI/README.md
 theme:
   name: 'material'
   palette:
