@@ -1,6 +1,6 @@
 # 音视频唇形匹配技术
 
-仓库地址：[DigitalEraLab/wav2lip-gfpgan](https://github.com/DigitalEraLab/wav2lip-gfpgan)
+仓库地址：[DigitalEraLab/hire_wave2lip](https://github.com/DigitalEraLab/hire_wave2lip)
 
 本项目使用Wav2lip进行唇形匹配以及GFPGAN人脸高清修复。
 
