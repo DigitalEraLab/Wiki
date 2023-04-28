@@ -48,8 +48,7 @@ plugins:
 
 1. 克隆master分支；
 2. 在 `docs`路径下新建子文件夹，添加了说明文档；
-3. 在 `mkdocs.yml`中的 `nav`添加相应名称与路径
-4. ```
-   mkdocs build
-   mkdocs gh-deploy
-   ```
+3. 使用 `conda activate wiki`激活虚拟环境
+4. 在 `mkdocs.yml`中的 `nav`添加相应名称与路径
+5. 执行 `mkdocs build`与 `mkdocs gh-deploy `
+6. 最后在github上更新gitpages

@@ -10,6 +10,7 @@ nav:
     - Sovits+vits: Sovits+vits/README.md
   - GPT-AI:
     - GPTAI: GPT-AI/README.md
+  - 素材网站: material/README.md
 theme:
   name: 'material'
   palette:
